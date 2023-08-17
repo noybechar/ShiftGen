@@ -1,0 +1,26 @@
+# ShiftGen
+Welcome to ShiftGen, the ultimate solution for seamless shift scheduling.
+I've developed an app that streamlines shift creation for delivery drivers using Python.
+
+Key Features:
+
+* Simple Shift Allocation:
+Designate morning, afternoon, and evening shifts effortlessly by specifying
+the required number of workers for each slot.
+
+* Fairness Level Control:
+Set a fairness level to ensure equitable distribution of shifts.
+This feature prevents excessive discrepancies between the most and least assigned shifts.
+
+* User-Friendly:
+Just click and run, set the parameters and you are ready to go!
+
+* Efficient Optimization:
+Optimize schedules based on driver availability and workload, guaranteeing both fairness and efficiency.
+
+Say goodbye to manual scheduling challenges and welcome a new era
+of automated, fair, and optimized shift management with ShiftGen.
+
+Best regards,
+Noy Bechar - Creator of ShiftGen
+Electrical Engineering Student at Afeka Tel-Aviv
