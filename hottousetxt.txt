@@ -1,0 +1,29 @@
+Before You Begin:
+
+*Ensure that all your CSV data is in the "Datacsv" folder. Each file should be a single word of a specific
+length (e.g., "Noy Bechar" becomes "noyb" or "noy"), with V's and X's indicating worker availability.
+*Make sure the "output.csv" file is empty.
+
+1) Launch the app.
+
+2) Select the worker's priority: High, Medium, or Low.
+(Higher-priority workers are more likely to receive their requested shifts.)
+
+3) Enter the worker's name in the box below, then press the "ENTER" key on your keyboard.
+
+4) Repeat this process for all workers.
+*Ensure accurate names that match the CSV file in the "Datacsv" folder.
+*A worker cannot get 3 shifts in a single day!
+
+5) Specify the "Fairness level" (ranging from 0 to 20, where 0 is the fairest).
+By choosing a number, the system will limit shifts differences to the provided fairness level.
+NOTE:
+* Lower fairness levels require more calculations. If the program becomes
+unresponsive, wait for processing to complete.
+* If the system can't find a suitable arrangement, it will automatically increase the fairness level.
+
+6) Set the desired number of Morning, Afternoon, and Evening Workers for each shift throughout the week.
+
+7) Click the "RANDOMIZE" button and wait.
+
+8) Get the output CSV file from the directory where the app is.
