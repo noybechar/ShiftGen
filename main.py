@@ -10,7 +10,7 @@ from tkinter import messagebox
 This section read the files.
 """""""""""""""""""""""""""
 def readFiles():
-    path = r'D:\Personal Project\Datacsv'
+    path = r'D:\Personal Project\Datacsv'                                                                                                      #CHANGE THIS TO WHATEVER LOCATION THE FOLDER IS                                     
     files = glob.glob(os.path.join(path,"*.csv"))
     dfs = list()
     name_list = list()
@@ -156,7 +156,7 @@ def main(workers_list,fairness_level_gui,morning_combobox,afternoon_combobox,eve
         sys.exit()
 
     try:
-        output = pd.read_csv(r'D:\Personal Project\output.csv',index_col=0,converters={'COLUMN_NAME': pd.eval}).fillna('')
+        output = pd.read_csv(r'D:\Personal Project\output.csv',index_col=0,converters={'COLUMN_NAME': pd.eval}).fillna('')                     #CHANGE THIS TO WHATEVER LOCATION THE FOLDER IS
 
     except Exception as e:
         print(f"\n{e}\nTo fix, add the 'output.csv' template\nback "
@@ -174,7 +174,7 @@ def main(workers_list,fairness_level_gui,morning_combobox,afternoon_combobox,eve
     condition = True
     iteration = 0
     while condition:
-        output = pd.read_csv(r'D:\Personal Project\output.csv', index_col=0,converters={'COLUMN_NAME': pd.eval}).fillna('')
+        output = pd.read_csv(r'D:\Personal Project\output.csv', index_col=0,converters={'COLUMN_NAME': pd.eval}).fillna('')                    #CHANGE THIS TO WHATEVER LOCATION THE FOLDER IS
         def_prio(data, output, high, med, low, morning_shift, afternoon_shift, evening_shift, num_workers)
         placeTheRest(data,output,morning_shift,afternoon_shift,evening_shift,index_name,num_workers)
 
